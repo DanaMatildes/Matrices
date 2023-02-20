@@ -2,41 +2,6 @@ package matrices;
 
 public class Matriz {
 	
-	/*Pruebas
-	public int[][] rellenaMatriz1() {
-		int[][]matriz1= new int[3][2];
-		matriz1[0][0]= 3;
-		matriz1[0][1]= 2;
-		matriz1[1][0]= 65;
-		matriz1[1][1]= 6;
-		matriz1[2][0]= 9;
-		matriz1[2][1]= 7;
-		return(matriz1);
-	}
-	
-	public int[][] rellenaMatriz2() {
-		int[][]matriz2= new int[2][2];
-		matriz2[0][0]= 5;
-		matriz2[0][1]= 9;
-		matriz2[1][0]= 2;
-		matriz2[1][1]= 8;
-		return(matriz2);
-	}
-	
-	public int[][] matrizCuad(){
-		int[][]matrizC= new int[3][3];
-		matrizC[0][0]= 5;
-		matrizC[0][1]= 9;
-		matrizC[0][2]= 16;
-		matrizC[1][0]= 9;
-		matrizC[1][1]= 8;
-		matrizC[1][2]= 14;
-		matrizC[2][0]= 1;
-		matrizC[2][1]= 3;
-		matrizC[2][2]= 9;
-		return(matrizC);
-	}*/
-	
 	//IMPRIMIR MATRIZ
 	public void imprime(int[][] matriz) {
 		int filas= matriz.length;
@@ -68,9 +33,7 @@ public class Matriz {
 			
 		if(columnas1!=filas2) {
 			System.out.println("No es posible multiplicar estas matrices");
-			
 		}else {
-				
 			for(int i=0; i<filas1; i++) {
 				for(int j=0; j<columnas2; j++) {
 					int temp=0;
